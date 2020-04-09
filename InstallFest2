@@ -1,0 +1,8 @@
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+
+sudo snap install heroku --classic
+heroku version
+heroku keys:add
