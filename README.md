@@ -1,7 +1,7 @@
 # InstallFest de THP
 
 Salut! Ici il s'agit d'un reposotorie qui te permettra de faire tout l'InstallFest de demarrage de la formation **The Hacking Project**. 
-Ceci est une solution pour tout les flegmards qui ont du les refaires 10 fois 
+Ceci est une solution pour tout les flegmards qui ont du les refaires 10 fois.
 Se qu'il va t'installer: 
 
  - Les Librairies necéssaires au bon déroulement de la formation. 
