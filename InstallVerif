@@ -1,0 +1,7 @@
+git --version
+rvm -v
+ruby -v
+rails -v
+git config --get user.name
+git config --get user.email
+heroku version
