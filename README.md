@@ -13,7 +13,8 @@ Se qu'il va t'installer:
 
 ## Prérequis minimum
 
-Une version de Ubuntu supérieur à 16.04
+La version de Ubuntu utiliser 19.10
+(bientot une version pour Ubuntu 20.04)
 
 ## Comment faire ?
 
