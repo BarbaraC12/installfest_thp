@@ -5,6 +5,7 @@ sudo apt-get install autoconf automake bison build-essential curl git-core libap
 sudo apt-get install git
 
 curl -L get.rvm.io | bash -s stable
+source /home/shure1i/.rvm/scripts/rvm
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 type rvm | head -1
 
@@ -14,7 +15,7 @@ rvm --default use 2.5.1
 
 gem install rails -v 5.2.3
 
-git config --global user.name "TonUserName"
-git config --global user.email "TonAdresse@Email.fr"
+git config --global user.name "BarbaraC12"
+git config --global user.email "cano.barbara@outlook.fr"
 ls ~/.ssh/id_rsa
-ssh-keygen -C TonAdresse@Email.fr -t rsa
+ssh-keygen -C cano.barbara@outlook.fr -t rsa
