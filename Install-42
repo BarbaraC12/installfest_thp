@@ -1,19 +1,29 @@
 sudo apt install vim
 
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.7
+python3.7 --version
+
 sudo apt-get install ruby ruby-bundler ruby-dev build-essential
+
+sudo apt install python3-pip
+pip3 --version
+sudo pip3 install sentry_sdk
 
 rm -rf .vim 
 git clone https://github.com/EtienneLz/cheh.git
 mv cheh/.vim ./
-rm -rf cheh
+rm -rf cheh norminette
 
-git clone https://github.com/42Paris/norminette.git ~/.norminette/
-cd ~/.norminette/
-bundle
+git clone https://github.com/42school/norminette.git ~/norminette/
+cd ~/norminette/
+pip3 install -r requirements.txt
+python3 setup.py install
 
 echo "export USER='bcano'" >> ~/.zshrc
 echo "export MAIL='bcano@student.42.fr'" >> ~/.zshrc
-echo 'alias norminette="~/.norminette/norminette.rb"' >> ~/.zshrc
 source ~/.zshrc
 cd ..
 
