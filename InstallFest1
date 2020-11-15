@@ -5,7 +5,7 @@ sudo apt install autoconf automake bison build-essential curl git-core libapr1 l
 sudo apt install git
 
 curl -L get.rvm.io | bash -s stable
-source /home/shure1i/.rvm/scripts/rvm
+source ~/.rvm/scripts/rvm
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 type rvm | head -1
 
