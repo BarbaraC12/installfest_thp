@@ -22,7 +22,7 @@ Voici les lignes a rentrer dans ton shell pour lancer l'installation:
 
     git clone https://github.com/BarbaraC12/installfest_thp.git InstallFest
  
-Modifie InstallFest1 dans l'editeur de texte les ligne 15 et 16 ("TonUserName" "TonAdresse@Email.yo") par tes informations personnels et de préference les même que sur Github
+Modifie InstallFest1 dans l'editeur de texte les ligne 18 et 19 ("TonUserName" "TonAdresse@Email.yo") par tes informations personnels et de préference les même que sur Github
 
     cd InstallFest
     bash InstallFest1
