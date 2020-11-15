@@ -15,7 +15,7 @@ rvm --default use 2.5.1
 
 gem install rails -v 5.2.3
 
-git config --global user.name "BarbaraC12"
-git config --global user.email "cano.barbara@outlook.fr"
+git config --global user.name "usernameGit"
+git config --global user.email "ton.adresse@email.fr"
 ls ~/.ssh/id_rsa
-ssh-keygen -C cano.barbara@outlook.fr -t rsa
+ssh-keygen -C ton.adresse@email.fr -t rsa
