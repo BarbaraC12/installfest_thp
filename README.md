@@ -13,8 +13,7 @@ Se qu'il va t'installer:
 
 ## Prérequis minimum
 
-La version de Ubuntu utiliser 19.10
-(bientot une version pour Ubuntu 20.04)
+La version de Ubuntu 19.10 et Debian 10
 
 ## Comment faire ?
 
@@ -22,7 +21,7 @@ Voici les lignes a rentrer dans ton shell pour lancer l'installation:
 
     git clone https://github.com/BarbaraC12/installfest_thp.git InstallFest
  
-Modifie InstallFest1 dans l'editeur de texte les ligne 18 et 19 ("TonUserName" "TonAdresse@Email.yo") par tes informations personnels et de préference les même que sur Github
+Modifie InstallFest1 dans l'editeur de texte les ligne ou ton user et ton email est demandé("TonUserName" "TonAdresse@Email.yo") par tes informations personnels et de préference les même que sur Github
 
     cd InstallFest
     bash InstallFest1
