@@ -19,11 +19,9 @@ git clone https://github.com/EtienneLz/cheh.git && mv cheh/.vim ./ && rm -rf che
 rm -rf norminette
 git clone https://github.com/42school/norminette.git ~/norminette/ && cd ~/norminette/ && pip3 install -r requirements.txt && python3 setup.py install
 
-echo "export USER='bcano'" >> ~/.zshrc
-echo "export MAIL='bcano@student.42.fr'" >> ~/.zshrc
 source ~/.zshrc
 cd ..
 
-mv installfest_thp/perso.zsh-theme .oh-my-zsh/themes/
-rm -rf installfest_thp
+mv installfest_thp/.perso.zsh-theme .oh-my-zsh/themes/perso.zsh-theme
+mv -f installfest_thp/.zshrc .zshrc
 
