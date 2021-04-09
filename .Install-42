@@ -1,16 +1,17 @@
-sudo apt install vim
-
 sudo apt update
-sudo apt install software-properties-common
+sudo apt install -y vim software-properties-common curl
+
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.7
+sudo apt install -y python3.7
 python3.7 --version
 
-sudo apt-get install ruby ruby-bundler ruby-dev build-essential
+sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
 
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 pip3 --version
 sudo pip3 install sentry_sdk
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 rm -rf .vim 
 git clone https://github.com/EtienneLz/cheh.git && mv cheh/.vim ./ && rm -rf cheh 
@@ -22,4 +23,7 @@ echo "export USER='bcano'" >> ~/.zshrc
 echo "export MAIL='bcano@student.42.fr'" >> ~/.zshrc
 source ~/.zshrc
 cd ..
+
+mv installfest_thp/perso.zsh-theme .oh-my-zsh/themes/
+rm -rf installfest_thp
 
