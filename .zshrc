@@ -1,58 +1,44 @@
-echo '                                                                                                                                            '
-echo '    #&(.                                                       ./#**%%.                                                                     '
-echo '     *@*,.                                                  ,/,#/     /*                                                                    '
-echo '      * / *(                                              /*.%*        (,                                                                   '
-echo '         .. **                                          .( #(          .#.                                                                  '
-echo '              */                                       // #,            /.                                                                  '
-echo '            .   (,                                    /*.&,             .#                                                                  '
-echo '                  (.                                 *, #                #/                                                                 '
-echo '         #    .*   */                               (. (.                ,#                                                                 '
-echo '         *,    .*    (/                           .%. (.                  (                                                                 '
-echo '         ./     ,*     #.                        ,#  (.                   (,                                                                '
-echo '          *      (,      &.                     (,  (*                    #*                                                                '
-echo '          *.      %.      #%                   *   **                     ((                                                                '
-echo '          ,*      *,        %/               *    ,#                      (.                                                                '
-echo '          .*      ,(         ,(,,**/##((/***,     #,  .                   #.                                                                '
-echo '           ,       /  /%#*.                      /&(#%@%/.                %.                                                                '
-echo '           *,     (&*                                 .##,               .%           (#(.                                                  '
-echo '           ,(   %(                                         ..            *#          .#     (%.                                             '
-echo '           .%.#(                   ..   .,.                  .(*         #(          #,     *#.#.                                  ,#%(. .* '
-echo '            /# /,            .#/.            .                  //       &,          (*       *( %/                            ,#(. /(. /*  '
-echo '           (,(.,/          .(                                     */    **           */         #, /%.                     .#*.  *%.  .#.   '
-echo '          *(@( (,         ,*    %@@.            .                   (.  #.           ./          .#   *%.              ,&%.   .&.    #*     '
-echo '          (&@.,(         ,%    %@@*             ,*                   ((/*             (*          .#/ *#%#((///*/(* (/      /(     (*       '
-echo '         ,#&(.(          /(    %@@.            .#.                    *%               %.       ,@(                    ././@#*   #,         '
-echo '        /#.%&##(((/       *@,  *@@.          .%,                       #*               %.     %/                  *####, ,/  ,%,           '
-echo '      %*    ,##*,,.          *#*         .**.                          (/                (/      %#.                  &@,#/ /,              '
-echo '     %,                                                                #,                  (%* *&      &@,#,    /     &@(/*  (.             '
-echo '*(, ,&                                  ./(#(*(/                      *%                   (,  &&      &@,#/    .     .##*   (*             '
-echo '    .#                                                               ,@.                   /    ,&@#,..*(#*(*/#@, .  .      (*              '
-echo '     *%                                    .,..,**//,               /&.                    #*.,,.                        #@(..              '
-echo '   ,(*/#                                                          .&/                       *(...           .,.       *#/*.                 '
-echo '        ##                                                      ,&/                         /,,&@#.    .##&%#//%. .*.  (@*                  '
-echo '          %&                                  .((,            /@,                                    .(. ..              .@%%&&&%#.         '
-echo '       *.    #%.                                          ./%,                                       /#                             /(      '
-echo '                ,#(,                                  ,%%*                                          ((                                 /*   '
-echo '                     ,#%#*                    ,/#%&%*.                                              (                                    (, '
-echo '                       .@,                      (*                                                  (          /(                         (.'
-echo '                       #/                        /(                                                 ,(       ,#                            ('
-echo '                      ,#                          *#                                                 .%   *%%,                             #'
-echo '                      %,                           .&,                                                 (,  .                              */'
-echo '                     (/                             .%.                                                ,%(                                **'
-echo '                    .(                                %,                                            /%/                                   .('
-echo '                    #                                  (/                                        *%                                       **'
-echo '                   /@/                                  ,&                                      ,/                                        ,,'
-echo '                   .%                                     %,                                    #.                                        **'
-echo '                   ,/                                      *%                                   //                                       .%.'
-echo '                   #*                                        (*                                  #,                                      #( '
-echo '                   #,                                         .(                              **.,%#                                    #(  '
-echo '                                                                                            .%      &*                                .&/   '
-echo '                                                                                             (,        .##,                         *&,     '
-echo '                                                                                              .#,                 ,             ,%@@@@@&%#/ '
-echo '                                                                                                 ,(#*.                .  ../#, .,..         '
-echo '                                                                                                       .*/#%%%%%%&@@%(,..                   '
-echo '                                                                                                                                            '
-echo '  ============================================= HELLO SWEETIE CAT ^..^ ===================================================================  '
+
+echo '                                                               '
+echo '         (#(.                                                  '
+echo '        .#     (%.                                             '
+echo '        #,     *#.#.                                  ,#%(. .* '
+echo '        (*       *( %/                            ,#(. /(. /*  '
+echo '        */         #, /%.                     .#*.  *%.  .#.   '
+echo '        ./          .#   *%.              ,&%.   .&.    #*     '
+echo '         (*          .#/ *#%#((///*/(* (/      /(     (*       '
+echo '          %.       ,@(                    ././@#*   #,         '
+echo '           %.     %/                  *####, ,/  ,%,           '
+echo '            (/      %#.                  &@,#/ /,              '
+echo '              (%* *&      &@,#,    /     &@(/*  (.             '
+echo '              (,  &&      &@,#/    .     .##*   (*             '
+echo '              /    ,&@#,..*(#*(*/#@, .  .      (*              '
+echo '              #*.,,.                        #@(..              '
+echo '               *(...           .,.       *#/*.                 '
+echo '               /,,&@#.    .##&%#//%. .*.  (@*                  '
+echo '                        .(. ..              .@%%&&&%#.         '
+echo '                        /#                             /(      '
+echo '                       ((                                 /*   '
+echo '                       (                                    (, '
+echo '                       (          /(                         (.'
+echo '                       ,(       ,#                            ('
+echo '                        .%   *%%,                             #'
+echo '                          (,  .                              */'
+echo '                          ,%(                                **'
+echo '                       /%/                                   .('
+echo '                    *%                                       **'
+echo '                   ,/                                        ,,'
+echo '                   #.                                        **'
+echo '                   //                                       .%.'
+echo '                    #,                                      #( '
+echo '                 **.,%#                                    #(  '
+echo '               .%      &*                                .&/   '
+echo '                (,        .##,                         *&,     '
+echo '                 .#,                 ,             ,%@@@@@&%#/ '
+echo '                    ,(#*.                .  ../#, .,..         '
+echo '                          .*/#%%%%%%&@@%(,..                   '
+echo '                                                               '
+echo '  ================== HELLO SWEETIE CAT ^..^ =================  '
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -64,7 +50,7 @@ export ZSH="/Users/bcano/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="perso"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -73,7 +59,7 @@ ZSH_THEME="robbyrussell"
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
