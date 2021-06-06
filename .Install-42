@@ -7,21 +7,20 @@ python3.7 --version
 
 sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
 
-sudo apt install -y python3-pip
-pip3 --version
-sudo pip3 install sentry_sdk
+sudo apt install -y python3.7-pip
+pip3.7 --version
+sudo pip3.7 install sentry_sdk
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 rm -rf .vim 
 git clone https://github.com/EtienneLz/cheh.git && mv cheh/.vim ./ && rm -rf cheh 
 
-rm -rf norminette
-git clone https://github.com/42school/norminette.git ~/norminette/ && cd ~/norminette/ && pip3 install -r requirements.txt && python3 setup.py install
+python3.7 -m pip install --upgrade pip setuptools
+python3.7 -m pip install norminette
 
 source ~/.zshrc
 cd ..
 
 mv installfest_thp/.perso.zsh-theme .oh-my-zsh/themes/perso.zsh-theme
 mv -f installfest_thp/.zshrc .zshrc
-
